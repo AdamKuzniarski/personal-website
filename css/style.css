@@ -14,11 +14,13 @@
 
 body {
   text-align: center;
-  background-image: url("/img/meBW.jpg");
+  background-image: url("/img/me.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Roboto", sans-serif;
 }
 
-.nav-container {
+.menu {
   margin-top: 55%;
   display: flex;
   flex-wrap: wrap;
@@ -28,20 +30,41 @@ body {
   text-decoration: none;
 }
 
-.nav-container a:link {
+.menu a:link {
   box-shadow: inset 0 0 0 0 #54b3d6;
   color: var(--white);
   text-decoration: none;
   padding: 8px;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  /* border-radius: 5px;
-  background: var(--blue); */
 }
 
-.nav-container a:link:hover {
+.menu a:link:hover {
   box-shadow: inset 100px 0 0 0 #54b3d6;
 }
 
-.main-img {
-  width: 100%;
+.header-2 {
+  color: var(--white);
+  margin-top: 2em;
+}
+
+.contact {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.clr-link > a {
+  margin-top: 3em;
+  text-decoration: none;
+  color: crimson;
+}
+
+.clr-link > a :hover {
+  /* hover state is missing */
+  color: crimson;
+}
+
+/* utility classes */
+.txt-shadow {
+  text-shadow: 2px 2px #000000;
 }
