@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #000000;
+  --dark-gray: #666666;
+  --li-gray: #979797;
+  --white: #eee;
+  --blue: #0088cc;
+}
+
+body {
+  text-align: center;
+}
+
+.nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-container a:link {
+  color: var(--white);
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 5px;
+  background: var(--blue);
+}
+
+.main-img {
+  width: 60%;
+}
