@@ -31,6 +31,7 @@ body {
 }
 
 .menu a:link {
+  font-size: clamp(1rem, -0.4286rem + 6.0952vw, 5rem);
   box-shadow: inset 0 0 0 0 #54b3d6;
   color: var(--white);
   text-decoration: none;
@@ -44,7 +45,8 @@ body {
 
 .header-2 {
   color: var(--white);
-  margin-top: 2em;
+  font-size: clamp(1rem, -0.4286rem + 6.0952vw, 3rem);
+  margin-top: clamp(1rem, -0.4286rem + 6.0952vw, 3rem);
 }
 
 .contact {
